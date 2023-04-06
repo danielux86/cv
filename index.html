@@ -1,91 +1,61 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Daniele's Personal Site</title>
-    </head>
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="images/daniele.jpeg" alt="daniele profile picture" width="200" height="200">
-                </td>
-                <td>
-                    <h1>Daniele Lucifora</h1>
-                    <p> <em> <a href="https://www.techyon.it/articoli/software-engineer-cosa-fa-principali-competenze.html"> Software Engineer </a> </em> </p>
-                    <p>Mi occupo dello sviluppo web e della creazione di mobile App native e web</p>
-                </td>
-            </tr>
-        </table>
-        
-        <hr size="2">
-        <h3>Formazione</h3>
-        <ul>
-            <li>Laurea triennale in Ingegneria Informatica</li>
-            <li>Diploma di scuola media superiore in Elettronica e Telecomunicazioni</li>
-        </ul>
-        <hr size="2">
-        <h3>Esperienza lavorativa</h3>
-        <table cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Data</th>
-                    <th>Lavoro</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2010</td>
-                    <td>Sport Leader presso il negozio Decathlon di Catania</td>
-                </tr>
-                <tr>
-                    <td>2009 - 2010</td>
-                    <td>Cameriere</td>
-                </tr>
-            </tbody>
-            <tfoot>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daniele Lucifora</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
 
-            </tfoot>
-        </table>
+<body>
+    <div class="main-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>Ciao. Sono Daniele.</h1>
+        <h2>Software Engineer</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+          <img class="profile-image" src="https://media.licdn.com/dms/image/C5603AQE9PMb_1iTezA/profile-displayphoto-shrink_800_800/0/1517443486316?e=2147483647&v=beta&t=e7kFlvlHwzkyfQ26WVveo6SkXR6x2ww4czoZKkwOh8A" alt="profile-img">
+          <h2>Ciao.</h2>
+          <p>Sono un Software Engineer, specializzato in Mobile App e Web Development.</p>
+        </div>
         <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Kotlin</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>CSS</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Angular</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr size="2">
-        <a href="hobbies.html"> I miei Hobby </a>  <a href="contact.html"> Contattami </a> 
-    </body>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="dev-image" src="https://img.freepik.com/free-vector/flat-creativity-concept-illustration_52683-64279.jpg?w=1480&t=st=1679735993~exp=1679736593~hmac=1eac026a5cd1593560915f92e59bc20c39b00719c33714bf8a9f92d2a9a93d29" alt="skills-img">
+            <h3>Software Development</h3>
+            <p>La programmazione è una forma di arte moderna, uno strumento che ci permette di realizzare tutto ciò di cui abbiamo di bisogno!</p>
+          </div>
+          <div class="skill-row">
+            <img class="sport-image" src="https://img.freepik.com/free-vector/love-sport-concept_98292-996.jpg?w=1480&t=st=1679737203~exp=1679737803~hmac=6ff2e290f71c9ba61dcee438ad620b3560b9d09290dd8f57b22ece77f0e055db" alt="">
+            <h3>Sports & Hobby</h3>
+            <p>Sono uno sportivo, amo gli sport all'aria aperta e sono maledettamente competitivo!</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Se sei anche tu uno sportivo ed ami la programmazione.</h3>
+          <p>Parliamone!</p>
+          <button class="btn" href="mailto:danielelucifora@email.com">CONTACT ME</button>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p id="copyright">© 2023 Daniele Lucifora.</p>
+      </div>
+      
+    
+</body>
 </html>
